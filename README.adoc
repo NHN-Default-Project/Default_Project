@@ -12,19 +12,19 @@
 |URL
 
 |박민수 🤜🏻🖥️
-|https://github.com/NHN-Default-Project/DP/tree/ParkMinsu
+|https://github.com/NHN-Default-Project/Default_Project/tree/parkminsu
 
 |이가은 🌝
-|https://github.com/NHN-Default-Project/DP/tree/LeeGaeun
+|https://github.com/NHN-Default-Project/Default_Project/tree/gaeun
 
 |정민수 🐻🥩
-|https://github.com/NHN-Default-Project/DP/tree/JeongMinsoo
+|https://github.com/NHN-Default-Project/Default_Project/tree/Jminsoo
 
 |정재현 🦴
-|https://github.com/NHN-Default-Project/DP/tree/JeongJaeHyeon
+|https://github.com/NHN-Default-Project/Default_Project/tree/jaehyeon
 
 |최윤화 🌟💫
-|https://github.com/NHN-Default-Project/DP/tree/ChoiYunhwa
+|https://github.com/NHN-Default-Project/Default_Project/tree/yunhwa
 
 |===
 
