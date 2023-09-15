@@ -54,6 +54,7 @@
 
 
 .JAVA FX
+https://math.hws.edu/javanotes/
 - 진행상황
 
 * [x] Chapter 1: Overview: The Mental Landscape
