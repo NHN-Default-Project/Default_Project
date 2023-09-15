@@ -54,7 +54,8 @@
 
 
 .JAVA FX
-https://math.hws.edu/javanotes/
+원문 : https://math.hws.edu/javanotes/
+번역문 : https://wikidocs.net/book/6039
 - 진행상황
 
 * [x] Chapter 1: Overview: The Mental Landscape
