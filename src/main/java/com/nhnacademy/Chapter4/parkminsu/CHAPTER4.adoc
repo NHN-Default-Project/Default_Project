@@ -1,0 +1,13 @@
+= Chpter4 Programmin in the Large 1 : Subroutines
+
+== Black Boxes and Procedural Abstraction
+
+=== 서브 루틴(Subroutine)
+* 몇몇 작업을 수행하기 위한 지시사항으로 구성
+* 함께 뭉쳐져(chunked) 이름을 지정
+* chunking: 잠재적으로 매우 복잡한 작업을 하나의 개념으로 처리
+* 복잡성(complexity)을 다루는 주요한 도구
+** 복잡성 : 알고리즘의 성능을 나타내는 척도
+*** 시간 복잡도와 공간 복잡도로 나눔
+
+
