@@ -1,0 +1,15 @@
+
+b
+java:S1124
+"EReorder the modifiers to comply with the Java Language Specification.(·©ª¶8â‡Úó©1
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ø­öÈ8â‡Úó©1
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(‹¦ü×8â‡Úó©1
+]	java:S125+"<This block of commented-out lines of code should be removed.(ï›œêøÿÿÿÿ8ä‡Úó©1
+K
+java:S2140R")Use "java.util.Random.nextInt()" instead.(ÓÓÆœüÿÿÿÿ8æ‡Úó©1
+m	java:S128^"LEnd this switch case with an unconditional break, return or throw statement.( ½¬éÿÿÿÿÿ8æ‡Úó©1
+g	java:S128Y"LEnd this switch case with an unconditional break, return or throw statement.(¡“¦v8æ‡Úó©1
+m	java:S128T"LEnd this switch case with an unconditional break, return or throw statement.(Ç³‹Éüÿÿÿÿ8æ‡Úó©1
+C	java:S131S""Add a default case to this switch.(¸é€­þÿÿÿÿ8æ‡Úó©1
