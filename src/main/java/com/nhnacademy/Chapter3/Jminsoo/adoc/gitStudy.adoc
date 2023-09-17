@@ -1,0 +1,11 @@
+:hardbreaks:
+= Git 내용 공부
+
+*작성자* : 정민수
+*일시* : 2023-09-15
+
+.*Git의 기본 절차*
+1. ".gitignore" 파일을 생성한다. (https://www.toptal.com/developers/gitignore)
+2. github에서 Repository를 생성한다.
+- README.md 파일을 생성하는 것은 자유지만, 파일을 생성하는 것으로 시작하면 Github에서 git사용을 위한 init을 진행해주기 때문에 편리한 경향이 있다.
+3. ㅁㄴㄹ
