@@ -76,6 +76,7 @@ public class RandomMosaicWalk2 {
         Mosaic.setColor(rowNum,colNum,red,green,blue);
     }  // end changeToRandomColor
 
+
     /**
      * Move the disturbance.
      * Precondition:   The global variables currentRow and currentColumn
@@ -112,5 +113,4 @@ public class RandomMosaicWalk2 {
             }
         }
     }  // end randomMove
-
 } // end class RandomMosaicWalk2
