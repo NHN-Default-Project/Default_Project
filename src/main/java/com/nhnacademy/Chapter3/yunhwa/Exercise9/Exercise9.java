@@ -1,4 +1,4 @@
-package chapter3.Exercise9;
+package com.nhnacademy.Chapter3.yunhwa.Exercise9;
 
 public class Exercise9 {
     // Intellij 에서 작동 가능

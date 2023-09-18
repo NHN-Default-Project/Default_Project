@@ -1,4 +1,4 @@
-package chapter3.Exercise3;
+package com.nhnacademy.Chapter3.yunhwa.Exercise3;
 
 public class Plus/*<T extends Number> */ implements BinaryOperator/*<T> */ {
 

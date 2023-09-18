@@ -1,4 +1,4 @@
-package chapter3;
+package com.nhnacademy.Chapter3.yunhwa;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

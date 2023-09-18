@@ -1,4 +1,4 @@
-package chapter3.Exercise7;
+package com.nhnacademy.Chapter3.yunhwa.Exercise7;
 
 public class Exercise7 {
     // 참고 예제 : 생일이 같은 2명의 사람을 찾으려면 랜덤으로 몇 명의 사람을 선택해야 하나요?

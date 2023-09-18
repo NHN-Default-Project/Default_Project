@@ -1,4 +1,4 @@
-package chapter3.Exercise8;
+package com.nhnacademy.Chapter3.yunhwa.Exercise8;
 import javafx.application.Application;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.Scene;

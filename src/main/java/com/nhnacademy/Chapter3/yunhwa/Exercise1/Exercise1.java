@@ -1,4 +1,4 @@
-package chapter3.Exercise1;
+package com.nhnacademy.Chapter3.yunhwa.Exercise1;
 
 
 public class Exercise1 {
