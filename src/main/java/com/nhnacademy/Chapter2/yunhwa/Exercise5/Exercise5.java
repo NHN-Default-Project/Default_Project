@@ -1,4 +1,4 @@
-package Exercise5;
+package com.nhnacademy.Chapter2.yunhwa.Exercise5;
 
 public class Exercise5 {
     // 정수 N에 대해, N 개의 계란이 있다면 N / 12 개의 계란이 있고, N % 12 의 계란이 남습니다.

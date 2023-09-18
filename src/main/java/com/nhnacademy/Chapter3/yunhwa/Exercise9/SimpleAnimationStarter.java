@@ -1,4 +1,4 @@
-package chapter3.Exercise9;
+package com.nhnacademy.Chapter3.yunhwa.Exercise9;
 
 import javafx.animation.AnimationTimer;
 import javafx.application.Application;

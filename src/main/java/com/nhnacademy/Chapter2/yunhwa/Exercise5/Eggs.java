@@ -1,4 +1,4 @@
-package Exercise5;
+package com.nhnacademy.Chapter2.yunhwa.Exercise5;
 
 public class Eggs {
     private int bundle;

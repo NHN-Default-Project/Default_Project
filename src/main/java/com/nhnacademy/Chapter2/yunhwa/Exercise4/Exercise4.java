@@ -1,4 +1,4 @@
-package Exercise4;
+package com.nhnacademy.Chapter2.yunhwa.Exercise4;
 import java.util.Scanner;
 
 public class Exercise4 {

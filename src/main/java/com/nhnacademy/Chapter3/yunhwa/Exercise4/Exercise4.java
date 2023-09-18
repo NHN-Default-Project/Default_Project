@@ -1,4 +1,4 @@
-package chapter3.Exercise4;
+package com.nhnacademy.Chapter3.yunhwa.Exercise4;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package chapter3.Exercise5;
+package com.nhnacademy.Chapter3.yunhwa.Exercise5;
 
 import java.io.IOException;
 import java.nio.file.Files;

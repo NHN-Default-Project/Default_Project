@@ -1,4 +1,4 @@
-package Exercise2;
+package com.nhnacademy.Chapter2.yunhwa.Exercise2;
 public class Exercise2 {
     // 주사위 굴리기 시뮬레이션 프로그램
 

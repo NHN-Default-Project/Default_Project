@@ -1,4 +1,4 @@
-package chapter3;
+package com.nhnacademy.Chapter3.yunhwa;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

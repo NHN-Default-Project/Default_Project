@@ -1,4 +1,4 @@
-package Exercise1;
+package com.nhnacademy.Chapter2.yunhwa.Exercise1;
 
 public class Exercise1 {
     public static void main(String[] args) {
