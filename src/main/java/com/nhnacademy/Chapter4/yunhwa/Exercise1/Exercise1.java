@@ -1,4 +1,4 @@
-package chapter4.Exercise1;
+package com.nhnacademy.Chapter4.yunhwa.Exercise1;
 
 import chapter3.Exercise4.Exercise4;
 
