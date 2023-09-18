@@ -1,0 +1,113 @@
+=Chapter04
+
+4.2 Static Subroutines and Static Variables
+1. 자바에서 모든 서브루틴은 클래스 내부에 정의되어야 한다.
+2. 자바서 static, non-static subroutine 이 존재하고, 정적 서브루틴은 클래스 자체의 구성원이고 비정적 서브루틴은 객체가 생성될 때에만 사용된다.
+3. 메소드와 서브루틴은 본질적으로 동의어라고 생각해야 한다.
+
+4.2.1 Subroutine Definitions
+modifiers  return-type  subroutine-name  ( parameter-list ) {
+statements
+}
+
+4.3.2  Formal and Actual Parameters
+- formal parameters/ dummy parameters: 서브루틴 정의에 사용되는 매개변수
+```java
+static void print3NSequence(int startingValue) {
+
+}
+```
+- actual parameters/ arguments: 서브루틴의 호출문에 사용되는 매개변수
+```java
+print2NSequence(K);
+```
+컴퓨터가 서브루틴 내의 코드를 실행할 때 형식 파라미터는 이미 초기값을 할당받는다. 컴퓨터는 서브루틴 내에서 코드 실행을 하기 전에 자동으로 형식 파라미터에 값을 할당한다. 그 값은 actual parameters에서 나온다. 서브루틴은 독립적이지 않다. 이는 다른 루틴에 의해 호출되며 매개변수에 적절한 값을 제공하는 것은 서브루틴 호출 문의 책임이다.
+
+4.3.3  Overloading
+- subroutine's signature: 서브루틴의 각각의 매개변수의 타입
+- signature가 다른 경우 동일한 클래스에 있는 두 개의 서로 다른 서브루틴이 동일한 이름을 가질 수 있다.
+```java
+println(int)
+println(char)
+println()
+```
+- 그러나 같은 시그니처를 가지고 반환값만 다른 서브루틴은 만들 수 없다.
+```java
+int getln() {...} (X)
+double getln() {...} (X)
+```
+
+4.5 람다 표현식
+데이터 값으로 서브루틴을 사용하여 작업할 수 있다. Java 8에서는 해당 기능이 람다 표현식이라는 형태로 Java에 추가되었다.
+
+4.5.1  First-class Functions
+- function Literal: 함수 역시 리터럴 방식으로 만들 수 있다. 이름을 주지 않고 만들면 된다.
+```java
+var hello = function(name){
+    alert(name + "님 환영합니다.");
+}
+hello("honggildong");
+```
+
+4.5.2  Functional Interfaces
+- 함수형 인터페이스란 추상 메서드가 오직 하나인 인터페이스를 의미한다.
+- 추상 메소드가 하나라는 것은 `default method` 또는 `static method` 는 여러 개 존재해도 상관 없다는 뜻이다.
+- `@FunctionalInterface` 어노테이션을 사용하는데, 이 어노테이션은 해당 인터페이스가 함수형 인터페이스 조건에 맞는지 검사해준다.
+- `@FunctionalInterface` 어노테이션이 없어도 함수형 인터페이스로 동작하고 사용하는 데 문제는 없지만, 인터페이스 검증과 유지보수를 위해 붙여주는 게 좋다.
+```java
+@FunctionalInterface interface CustomInterface<T> {
+// abstract method 오직 하나
+T myCall();
+// default method 는 존재해도 상관없음
+default void printDefault() { System.out.println("Hello Default"); }
+// static method 는 존재해도 상관없음
+static void printStatic() { System.out.println("Hello Static"); } }
+```
+실제사용
+```java
+CustomInterface<String> customInterface = () -> "Hello Custom";
+// abstract method
+String s = customInterface.myCall();
+System.out.println(s);
+// default method
+customInterface.printDefault();
+// static method
+CustomFunctionalInterface.printStatic();
+```
+
+```
+Hello Custom
+Hello Default
+Hello Static
+```
+
+4.5.3  Lambda Expressions
+
+4.6 APIs, Packages, Modules, and Javadoc
+
+4.7 More on Program Design
+
+4.7.1  Preconditions and Postconditions
+: 서브루틴이 다른 나머지 프로그램과 어떻게 상호작용하는지에 대해서 명세화한 계약이다.
+A precondition of a subroutine => an obligation of the _caller_ of the subroutine (매개변수에 대한 확인)
+A postcondition of a subroutine => an obligation of the subroutine (리턴값에 대한 확인)
+
+4.7.2  A Design Example
+/**
+* Opens a "mosaic" window on the screen.  This subroutine should be called
+* before any of the other Mosaic subroutines are used.  The program will end
+* when the user closes the window.
+*
+* Precondition:   The parameters rows, cols, h, and w are positive integers.
+* Postcondition:  A window is open on the screen that can display rows and
+*                   columns of colored rectangles.  Each rectangle is w pixels
+*                   wide and h pixels high.  The number of rows is given by
+*                   the first parameter and the number of columns by the
+*                   second.  Initially, all rectangles are black.
+*
+* Note:  The rows are numbered from 0 to rows - 1, and the columns are
+* numbered from 0 to cols - 1.
+*/
+public static void open(int rows, int cols, int w, int h)
+
+=> 이런식으로 javadoc을 작성하고 precondition을 만족하지 못했을 경우에는 IllegalArgumentException이 던져진다.
